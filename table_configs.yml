@@ -1,0 +1,10 @@
+tables:
+  - project_id: "project1"
+    dataset_id: "dataset1"
+    table_id: "table1"
+    gcs_json_path: "gs://bucket-name/path/to/first_table_descriptions.json"
+  - project_id: "project1"
+    dataset_id: "dataset1"
+    table_id: "table2"
+    gcs_json_path: "gs://bucket-name/path/to/second_table_descriptions.json"
+  # Continue adding additional table configurations as needed
